@@ -139,10 +139,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="LineUp.txt" />
-    <Text Include="pop.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="18 Population Bar Chart.cpp" />
+    <ClCompile Include="26 Using Files - Savings Account Balance Modification.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

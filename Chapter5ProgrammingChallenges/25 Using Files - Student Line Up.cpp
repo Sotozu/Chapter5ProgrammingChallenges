@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include <fstream>
 using namespace std;
 
@@ -64,6 +65,8 @@ int main() {
 	for (int i = 0; i < students.size(); i++) {
 		cout << students[i] << endl;
 	}
+
+	cout << endl << "Alex" << endl;
 
 	return 0;
 }

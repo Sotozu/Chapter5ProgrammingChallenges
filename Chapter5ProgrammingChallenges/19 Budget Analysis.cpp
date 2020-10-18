@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include <iomanip>
 using namespace std;
 
 //19. Budget Analysis
@@ -88,6 +90,8 @@ int main() {
 	cout << setw(20) << left << "______________" << endl;
 	cout << setw(20) << left << "______________" << endl;
 	cout << setw(20) << left << final << ": " << "$" << end_result << endl;
+
+	cout << endl << "Alex" << endl;
 
 	return 0;
 }

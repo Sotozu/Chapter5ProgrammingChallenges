@@ -1,4 +1,5 @@
 #include <iostream>
+#include <time.h>
 using namespace std;
 
 //20. Random Number Guessing Game
@@ -24,6 +25,8 @@ int main() {
 	} while (user_input != random_num);
 
 	cout << "CONGRATULATIONS! THE NUMBER IS: " << random_num << endl;
+
+	cout << endl << "Alex" << endl;
 
 	return 0;
 }
