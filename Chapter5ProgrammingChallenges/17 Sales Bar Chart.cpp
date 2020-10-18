@@ -8,7 +8,7 @@ int main() {
 	int asteriks[4];
 	int hundreds;
 
-	for (int i = 1; i < 5; i++) {
+	for (int i = 0; i < 4; i++) {
 		cout << "Please enter the sales for store #" << i << ": $";
 		cin >> sales[i];
 		asteriks[i] = sales[i] / 100;
@@ -19,7 +19,7 @@ int main() {
 
 
 
-	for (int i = 1; i < 5; i++) {
+	for (int i = 0; i < 4; i++) {
 		cout << "Store " << i << ":";
 		for (int j = 0; j < asteriks[i]; j++) {
 			cout << "*";
