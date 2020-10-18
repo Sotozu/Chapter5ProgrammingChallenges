@@ -138,10 +138,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <Text Include="LineUp.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="LineUp.txt" />
+    <ClCompile Include="17 Sales Bar Chart.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
