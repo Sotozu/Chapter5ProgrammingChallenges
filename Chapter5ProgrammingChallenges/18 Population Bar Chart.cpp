@@ -1,8 +1,8 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-// 18.Population Bar Chart
 
+// 18.Population Bar Chart
 
 int main() {
 	ifstream inputFile;
@@ -29,5 +29,8 @@ int main() {
 	}
 
 	inputFile.close(); // Close the file
+
+	cout << endl << "Alex" << endl;
+
 	return 0;
 }

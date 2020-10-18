@@ -18,9 +18,12 @@
     <Text Include="LineUp.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="pop.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="17 Sales Bar Chart.cpp">
+    <ClCompile Include="18 Population Bar Chart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
